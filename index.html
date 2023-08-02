@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="stylePortfolio.css">
+</head>
+<body>
+
+    <div class="fondoPrincipal">
+        <nav class="top-right">
+            <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#skills">Educación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="salto">
+        <br>
+    </div>
+
+    <div class="imgfondo">
+        <section id="inicio" >
+            <h1>Ignacio Davrieux</h2>
+            <p></p>
+        </section>
+    </div>
+
+    <div class="salto">
+        <br>
+    </div>
+
+    
+    <section id="proyectos">
+        <h2>Proyecto</h2>
+        <h3>Juego 2048</h3>
+            <div class="proyecto1">
+                <img src="2048_logo.svg.png" alt="Proyecto 1">
+                <p>Se trata de crear el juego 2048 utilizando el lenguaje de programación  C y C++, tarea para la universidad.<br>El 2048 es un juego de rompecabezas numérico en el que el objetivo es combinar fichas con números para alcanzar el número 2048 en una cuadrícula de 4x4. Las fichas se combinan deslizándolas en direcciones específicas y fusionando fichas adyacentes del mismo valor. El juego continúa hasta que ya no sea posible realizar movimientos válidos.</p>
+            </div>
+    </section>
+    
+
+    <div class="salto">
+        <br>
+    </div>
+
+    <div class="center">
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <div class="al_lado">
+                <div class="separacion">
+                    <img src="yo.jpg" alt="Foto perfil">
+                </div>
+                <p>¡Hola! Mi nombre es Ignacio y soy estudiante de Desarrollo Web en Jóvenes a Programar. También estudio Tecnólogo Informático en la UTU. <br>Mi objetivo es especializarme en front end, pero tambien quiero sumergirme en el mundo del back end, para en un futuro tener un curriculum mas completo.</p>
+            </div>
+        </section>
+    </div> 
+
+    <div class="salto">
+        <br>
+    </div>
+
+    <div class="center">
+        <section id="skills">
+            <h2>Educación</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Institucion</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Tecnologo Informatico</td>
+                    <td>UTU</td>
+                    <td>En curso</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo Web</td>
+                    <td>Plan Ceibal(JaP)</td>
+                    <td>En curso</td>
+                </tr>
+                <tr>
+                    <td>Front end</td>
+                    <td>Udemy</td>
+                    <td>En curso</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <div class="salto">
+        <br>
+    </div>
+
+    
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail" placeholder="Tu email"><br><br>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre"><br><br>
+            <label for="tematica">Tematica:
+            <select class="boton"> 
+                <option>---Elige un tema---</option>
+                <option>Consulta</option>
+                <option>Propuesta</option>
+                <option>Reporte</option>
+                <option>Otro</option>
+            </select><br><br>
+            </label>
+            <label for="comentario" >Comentario: </label>
+            <textarea id="comentario" name="comentario" placeholder="Mensaje"></textarea><br><br>
+            <input type="button" value="Enviar" class="boton">
+        </form>   
+    </section>
+
+    <div class="salto">
+        <br>
+    </div>
+    
+    <footer>
+        <p>Derechos de autor &copy; 2023 Ignacio Davrieux<br>
+                <a href="https://www.instagram.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M16.5 7.5l0 .01" />
+                      </svg>
+                </a> 
+                <a href="https://www.linkedin.com/in/ignacio-davrieux-4236151b9/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                        <path d="M8 11l0 5" />
+                        <path d="M8 8l0 .01" />
+                        <path d="M12 16l0 -5" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                      </svg>
+                </a>
+        </p>
+    </footer>
+</body>
+</html>
